@@ -1,0 +1,84 @@
+<view class = "detail-container">
+  <scroll-view class = "detail-scroll" scroll-y="true">
+    <view class="scroll-box">
+      <view class= "detail-top">
+        <view class="detail-top-head">
+          <dl>
+            <dt><image src="{{list.avatar}}" /></dt>
+            <dd>
+              <view class="ddtop">
+                <text class="uname">{{list.username}}</text>
+                <i></i>
+              </view>
+              <text class="ddbottom"></text>
+            </dd>
+          </dl>
+          <view class="concern"></view>
+        </view>
+      </view>
+      <dl class="detail-productImg">
+        <dt>
+          <image src="list.pics[0].url" />
+          <image src="list.pics[1].url" />
+        </dt>
+        <dd>list.pics[0].text</dd>
+      </dl>
+      <view class="author-desc"><i></i><b>晒护肤</b></view>
+      <view class="detail-address">
+        <i></i>
+        <b>{{list.areaname}}</b>
+      </view>
+      <ul class="sproduct-footer">
+        <li><i class="un_like"></i><b>20</b></li>
+        <li><i class="un_collect"></i><b>1</b></li>
+        <li><i class="un_linked"></i><b>暂无链接</b></li>
+      </ul>
+      <ul class="zuser">
+        <li wx:for="{{list.zuser}}" wx:for-item="item"><image src="{{item.avatar}}" /></li>
+      </ul>
+
+      <view class="commits">
+        <view class="commits-top">
+          评论(8)
+        </view>
+        <view class="commits-list">
+          <view class="commitInfo" wx:for="{{list.comdata}}" wx:for-item="item">
+            <dl>
+              <dt><image src="{{item.avatar}}" /></dt>
+              <dd>
+                <b>{{item.username}}</b>
+                <i>{{item.addtime}}</i>
+              </dd>
+            </dl>
+            <span class="content">{{item.content}}</span>
+          </view>
+        </view>
+        <view class="commits-more">查看更多评论</view>
+      </view>
+
+      <view class="detail-relative">
+        <view class="relative-top">
+          相关晒晒
+        </view>
+        <view class="piclist">
+          <dl wx:for="{{list.list}}" wx:for-item="item">
+            <dt><image scr="{{item.image}}" /></dt>
+            <dd>
+              <view class="prodes">{{item.description}}</view>
+              <view class="authordes">
+                <view class="autoleft">
+                  <view class = "autoava"><image src="{{item.avatar}}" /></view>
+                  <text>{{item.username}}</text>
+                </view>
+                <view class="autoright">
+                  <i></i><b>{{item.zan_num}}</b>
+                </view>
+              </view>
+            </dd>
+          </dl>
+        </view>
+      </view>
+
+    </view>
+</scroll-view>
+</view>

@@ -1,0 +1,21 @@
+<view class="weifare-container">
+  <scroll-view class="weifare-scroll" scroll-y="true">
+    <ul class="weifare-scroll-top" wx:for="{{slide}}" wx:for-item="item">
+      <li><image src="{{item.image}}" /></li>
+    </ul>
+
+    <view class="weifare-scroll-bottom">
+      <dl class="weifare-scroll-dl" wx:for="{{list}}" wx:for-item="item">
+        <dt><image src="{{item.image}}" /></dt>
+        <dd>
+          <span>{{item.title}}</span>
+          <view class="weifare-productInfo">
+            <span class="productinfo1">{{item.allnum}}</span>
+            <span class="productinfo2">{{item.appnum}}</span>
+            <span class="productinfo3">{{item.endday}}</span>
+          </view>
+        </dd>
+      </dl>
+    </view>
+  </scroll-view>
+</view>

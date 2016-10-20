@@ -1,0 +1,130 @@
+.sectioon label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+.sectioon label text{
+      width: 100px;
+      text-align: center;
+    }
+.sectioon label .uinfo{
+      flex: 1;
+      border-bottom: solid 1rpx #ccc;
+}
+
+.my-container {
+  background: #f7f7f7;
+  height: 100%;
+  box-sizing: border-box;
+  width: 100%; }
+  .my-container .my-header {
+    height: 112px;
+    background: #fff;
+    padding-top: 13px;
+    box-sizing: border-box;
+    width: 100%; }
+    .my-container .my-header .my-header-top {
+      height: 74px;
+      border-bottom: 1px solid #f0f0f0;
+      box-sizing: border-box;
+      padding: 11px 13px 11px 11px; }
+      .my-container .my-header .my-header-top .head-left {
+        float: left;
+        width: 204px; }
+        .my-container .my-header .my-header-top .head-left dt {
+          float: left;
+          width: 60px;
+          height: 52px;
+          border-radius: 6px; }
+          .my-container .my-header .my-header-top .head-left dt image {
+            width: 100%;
+            height: 100%; }
+        .my-container .my-header .my-header-top .head-left dd {
+          float: left;
+          width: 144px;
+          height: 100%;
+          padding-left: 12px;
+          box-sizing: border-box; }
+          .my-container .my-header .my-header-top .head-left dd .uname {
+            display: block;
+            width: 100%;
+            height: 28px;
+            font-size: 14px;
+            color: #767676; }
+          .my-container .my-header .my-header-top .head-left dd .miaoshu {
+            display: block;
+            width: 100%;
+            height: 24px;
+            font-size: 10px;
+            color: #878787; }
+      .my-container .my-header .my-header-top .head-right {
+        float: right;
+        width: 11px;
+        height: 100%;
+        background: url(/images/right_arrow.png) no-repeat left center;
+        background-size: 75%; }
+    .my-container .my-header .my-header-bottom {
+      height: 38px;
+      box-sizing: border-box;
+      width: 100%;
+      display: flex; }
+      .my-container .my-header .my-header-bottom li {
+        flex: 1; }
+        .my-container .my-header .my-header-bottom li i {
+          display: block;
+          width: 100%;
+          height: 20px;
+          line-height: 20px;
+          text-align: center;
+          font-size: 12px;
+          color: #343434; }
+        .my-container .my-header .my-header-bottom li b {
+          display: block;
+          width: 100%;
+          height: 18px;
+          text-align: center;
+          line-height: 16px;
+          font-size: 8px;
+          background: #fff;
+          color: #bebebe; }
+  .my-container .my-shoucang {
+    width: 100%;
+    height: 89px;
+    margin: 13px 0;
+    background: #fff; }
+    .my-container .my-shoucang .my-shoucang-top {
+      width: 100%;
+      height: 36px;
+      padding-left: 11px;
+      box-sizing: border-box; }
+      .my-container .my-shoucang .my-shoucang-top i {
+        float: left;
+        width: 30px;
+        height: 100%;
+        background: url(/images/my_sc.png) no-repeat left center;
+        background-size: 75%; }
+      .my-container .my-shoucang .my-shoucang-top span {
+        float: left;
+        line-height: 36px;
+        color: #4f4f4f;
+        font-size: 14px; }
+    .my-container .my-shoucang .my-shoucang-bottom {
+      width: 100%;
+      height: 53px;
+      display: flex; }
+      .my-container .my-shoucang .my-shoucang-bottom li {
+        flex: 1;
+        height: 100%; }
+        .my-container .my-shoucang .my-shoucang-bottom li i {
+          width: 16px;
+          height: 16px;
+          display: block;
+          margin: 0 auto; }
+        .my-container .my-shoucang .my-shoucang-bottom li b {
+          display: block;
+          height: 37px;
+          width: 100%;
+          text-align: center;
+          color: #3e3e3e;
+          font-size: 10px; }

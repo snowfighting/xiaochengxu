@@ -1,0 +1,49 @@
+Page({
+  data:{
+    current:0,
+    slide:[],
+    topic:[],
+    application:[],
+    list:[],
+    loadingHidden:false,
+    refreshHidden:true,
+    loadmoreHidden:true,
+    swiper:{
+      current:0,
+      duration:300
+    }
+  },
+  onLoad:function(){
+    var that=this;
+    wx.request({
+      url:'http://localhost/mock/main.json',
+      header:{
+        'Content-Type':'application/json'
+      },
+      success:function(res){
+        setTimeout(function(){
+          that.setData({
+            slide:res.data.slide,
+            application:res.data.application,
+            topic:res.data.topic.topicdata,
+            list:res.data.list,
+            loadingHidden:true
+          })
+        },1500);
+      }
+    })
+  },
+  switchSlider:function(e){
+    this.setData({
+      current:e.target.dataset.index,
+      "swiper.current":e.target.dataset.index
+    })
+
+  },
+  chanMainSlider:function(e){
+    this.setData({
+      current:e.detail.current
+    })
+  }
+
+})

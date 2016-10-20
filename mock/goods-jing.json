@@ -1,0 +1,343 @@
+{
+	"success": 1,
+	"tips": "\u6210\u529f\u83b7\u53d6\u6570\u636e",
+	"page": 1,
+	"pages": 103,
+	"pagesize": 10,
+	"total": 1024,
+	"slide": [{
+		"type": "m_show",
+		"tempid": 1,
+		"image": "http://img.meishai.com/2016/0706/20160706102049219.jpg",
+		"image_width": 750,
+		"image_height": 380,
+		"value": "1334",
+		"h5data": {
+			"islogin": 0,
+			"controller": "",
+			"action": "",
+			"parameter": "1334",
+			"userid": 0
+		}
+	}, {
+		"type": "m_show",
+		"tempid": 1,
+		"image": "http://img.meishai.com/2016/0706/20160706102121120.jpg",
+		"image_width": 750,
+		"image_height": 380,
+		"value": "1370",
+		"h5data": {
+			"islogin": 0,
+			"controller": "",
+			"action": "",
+			"parameter": "1370",
+			"userid": 0
+		}
+	}, {
+		"type": "m_show",
+		"tempid": 1,
+		"image": "http://img.meishai.com/2016/0706/20160706102256156.jpg",
+		"image_width": 750,
+		"image_height": 380,
+		"value": "1327",
+		"h5data": {
+			"islogin": 0,
+			"controller": "",
+			"action": "",
+			"parameter": "1327",
+			"userid": 0
+		}
+	}, {
+		"type": "m_show",
+		"tempid": 1,
+		"image": "http://img.meishai.com/2016/0706/20160706102140911.jpg",
+		"image_width": null,
+		"image_height": null,
+		"value": "1332",
+		"h5data": {
+			"islogin": 0,
+			"controller": "",
+			"action": "",
+			"parameter": "1332",
+			"userid": 0
+		}
+	}],
+	"list": [{
+		"tid": 1409,
+		"typeid": 5,
+		"tempid": 1,
+		"icon": null,
+		"icon_width": 250,
+		"icon_height": 130,
+		"image": "http://img.meishai.com/2016/0712/20160712060638940.jpg",
+		"image_width": 750,
+		"image_height": 380,
+		"isnew": 0,
+		"title": "2016\u5e74\u4e0a\u534a\u5e74\u5f69\u5986\u699c\u5355\u51fa\u7089\u5566\uff08\u4e8c\uff09",
+		"sub_title": "\u5f69\u5986  \u8eab\u4f53\u62a4\u7406",
+		"sub_title_color": "FFFFFF",
+		"catlist": null,
+		"isfollow": 0,
+		"h5data": {
+			"islogin": 0,
+			"controller": "user",
+			"action": "daren",
+			"parameter": "",
+			"userid": 0
+		},
+		"view_num": 29845,
+		"follow_num": 2772
+	}, {
+		"tid": 1405,
+		"typeid": 5,
+		"tempid": 1,
+		"icon": "http://img.meishai.com/2016/0323/20160323124823318.png",
+		"icon_width": 250,
+		"icon_height": 130,
+		"image": "http://img.meishai.com/2016/0706/20160706100033288.jpg",
+		"image_width": 750,
+		"image_height": 380,
+		"isnew": 0,
+		"title": "\u8fd9\u65e5\u5b50\uff0c\u6ca1\u6709\u9632\u6652\u55b7\u96fe\u80bf\u4e48\u884c\uff1f                                                                                      ",
+		"sub_title": "\u9632\u6652\u55b7\u96fe",
+		"sub_title_color": "FFFFFF",
+		"catlist": [{
+			"cid": 3,
+			"catname": "\u7f8e\u5bb9\u62a4\u80a4"
+		}],
+		"isfollow": 0,
+		"h5data": {
+			"islogin": 0,
+			"controller": "user",
+			"action": "daren",
+			"parameter": "",
+			"userid": 0
+		},
+		"view_num": 22481,
+		"follow_num": 2132
+	}, {
+		"tid": 1407,
+		"typeid": 5,
+		"tempid": 1,
+		"icon": null,
+		"icon_width": 250,
+		"icon_height": 130,
+		"image": "http://img.meishai.com/2016/0712/20160712095222959.jpg",
+		"image_width": 750,
+		"image_height": 380,
+		"isnew": 0,
+		"title": "cosme\u5927\u8d4f\u4e0a\u534a\u5e74\u699c\u5355\u51fa\u7089\u5566\uff08\u4e00\uff09",
+		"sub_title": "\u62a4\u80a4  \u5e95\u5986\u7c7b",
+		"sub_title_color": "FFFFFF",
+		"catlist": [{
+			"cid": 3,
+			"catname": "\u7f8e\u5bb9\u62a4\u80a4"
+		}],
+		"isfollow": 0,
+		"h5data": {
+			"islogin": 0,
+			"controller": "user",
+			"action": "daren",
+			"parameter": "",
+			"userid": 0
+		},
+		"view_num": 25266,
+		"follow_num": 2395
+	}, {
+		"tid": 1404,
+		"typeid": 5,
+		"tempid": 1,
+		"icon": "http://img.meishai.com/2016/0323/20160323124823318.png",
+		"icon_width": 250,
+		"icon_height": 130,
+		"image": "http://img.meishai.com/2016/0705/20160705050517465.jpg",
+		"image_width": 750,
+		"image_height": 380,
+		"isnew": 0,
+		"title": "\u8d44\u5bb6  \u6700\u503c\u5f97\u4f60\u8d2d\u4e70\u7684\u597d\u7269",
+		"sub_title": "\u8d44\u751f\u5802\u62a4\u80a4",
+		"sub_title_color": "FFFFFF",
+		"catlist": [{
+			"cid": 3,
+			"catname": "\u7f8e\u5bb9\u62a4\u80a4"
+		}],
+		"isfollow": 0,
+		"h5data": {
+			"islogin": 0,
+			"controller": "user",
+			"action": "daren",
+			"parameter": "",
+			"userid": 0
+		},
+		"view_num": 35788,
+		"follow_num": 3434
+	}, {
+		"tid": 1390,
+		"typeid": 5,
+		"tempid": 1,
+		"icon": null,
+		"icon_width": 250,
+		"icon_height": 130,
+		"image": "http://img.meishai.com/2016/0702/20160702022700826.jpg",
+		"image_width": 750,
+		"image_height": 380,
+		"isnew": 0,
+		"title": "\u8fc7\u654f\u6551\u661f\u5927\u6ce2\u6765\u88ad",
+		"sub_title": "",
+		"sub_title_color": "FFFFFF",
+		"catlist": [{
+			"cid": 3,
+			"catname": "\u7f8e\u5bb9\u62a4\u80a4"
+		}],
+		"isfollow": 0,
+		"h5data": {
+			"islogin": 0,
+			"controller": "user",
+			"action": "daren",
+			"parameter": "",
+			"userid": 0
+		},
+		"view_num": 51372,
+		"follow_num": 4864
+	}, {
+		"tid": 1375,
+		"typeid": 5,
+		"tempid": 1,
+		"icon": null,
+		"icon_width": 250,
+		"icon_height": 130,
+		"image": "http://img.meishai.com/2016/0630/20160630024406377.jpg",
+		"image_width": 750,
+		"image_height": 380,
+		"isnew": 0,
+		"title": "\u4e0d\u8981\u8e29\u96f7  \u6559\u4f60\u5982\u4f55\u6311\u9009\u9762\u819c",
+		"sub_title": "",
+		"sub_title_color": "FFFFFF",
+		"catlist": [{
+			"cid": 3,
+			"catname": "\u7f8e\u5bb9\u62a4\u80a4"
+		}],
+		"isfollow": 0,
+		"h5data": {
+			"islogin": 0,
+			"controller": "user",
+			"action": "daren",
+			"parameter": "",
+			"userid": 0
+		},
+		"view_num": 73491,
+		"follow_num": 7066
+	}, {
+		"tid": 1377,
+		"typeid": 5,
+		"tempid": 1,
+		"icon": null,
+		"icon_width": 250,
+		"icon_height": 130,
+		"image": "http://img.meishai.com/2016/0629/20160629041159318.jpg",
+		"image_width": 750,
+		"image_height": 380,
+		"isnew": 0,
+		"title": "\u6709\u4e86\u54d1\u5149\u8272\u773c\u5f71 \u4f60\u8fd8\u6015\u6d6e\u80bf\u7684\u773c\u775b\uff1f ",
+		"sub_title": "",
+		"sub_title_color": "FFFFFF",
+		"catlist": [{
+			"cid": 3,
+			"catname": "\u7f8e\u5bb9\u62a4\u80a4"
+		}],
+		"isfollow": 0,
+		"h5data": {
+			"islogin": 0,
+			"controller": "user",
+			"action": "daren",
+			"parameter": "",
+			"userid": 0
+		},
+		"view_num": 82165,
+		"follow_num": 7872
+	}, {
+		"tid": 1376,
+		"typeid": 5,
+		"tempid": 1,
+		"icon": null,
+		"icon_width": 250,
+		"icon_height": 130,
+		"image": "http://img.meishai.com/2016/0622/20160622031920508.jpg",
+		"image_width": 750,
+		"image_height": 380,
+		"isnew": 0,
+		"title": "\u62ef\u6551\u591c\u732b\u65cf\u7684\u597d\u7269",
+		"sub_title": "",
+		"sub_title_color": "FFFFFF",
+		"catlist": [{
+			"cid": 3,
+			"catname": "\u7f8e\u5bb9\u62a4\u80a4"
+		}],
+		"isfollow": 0,
+		"h5data": {
+			"islogin": 0,
+			"controller": "user",
+			"action": "daren",
+			"parameter": "",
+			"userid": 0
+		},
+		"view_num": 88276,
+		"follow_num": 8386
+	}, {
+		"tid": 1374,
+		"typeid": 5,
+		"tempid": 1,
+		"icon": null,
+		"icon_width": 250,
+		"icon_height": 130,
+		"image": "http://img.meishai.com/2016/0616/20160616055517847.jpg",
+		"image_width": 750,
+		"image_height": 380,
+		"isnew": 0,
+		"title": "\u5c11\u5973\u60c5\u6000\u8349\u8393\u63a7",
+		"sub_title": "",
+		"sub_title_color": "FFFFFF",
+		"catlist": [{
+			"cid": 8,
+			"catname": "\u552f\u7f8e\u9970\u54c1"
+		}],
+		"isfollow": 0,
+		"h5data": {
+			"islogin": 0,
+			"controller": "user",
+			"action": "daren",
+			"parameter": "",
+			"userid": 0
+		},
+		"view_num": 98163,
+		"follow_num": 9410
+	}, {
+		"tid": 1370,
+		"typeid": 5,
+		"tempid": 1,
+		"icon": null,
+		"icon_width": 250,
+		"icon_height": 130,
+		"image": "http://img.meishai.com/2016/0615/20160615051604629.jpg",
+		"image_width": 750,
+		"image_height": 380,
+		"isnew": 0,
+		"title": "\u590f\u5929\u96f6\u98df\u5c31\u8981\u5403\u4e0d\u80d6\u7684",
+		"sub_title": "",
+		"sub_title_color": "FFFFFF",
+		"catlist": [{
+			"cid": 5,
+			"catname": "\u7f8e\u98df\u996e\u6599"
+		}],
+		"isfollow": 0,
+		"h5data": {
+			"islogin": 0,
+			"controller": "user",
+			"action": "daren",
+			"parameter": "",
+			"userid": 0
+		},
+		"view_num": 99506,
+		"follow_num": 9275
+	}]
+}

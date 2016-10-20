@@ -1,0 +1,51 @@
+{
+  "pages":[
+    "pages/meishai/main/main",
+    "pages/meishai/goods/goods",
+    "pages/meishai/photo/photo",
+    "pages/meishai/welfare/welfare",
+    "pages/meishai/my/my",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color":"#888",
+    "borderStyle":"white",
+    "list": [
+      {
+        "pagePath": "pages/meishai/main/main",
+        "text": "美晒",
+        "iconPath": "images/sun_gray.png",
+        "selectedIconPath": "images/sun_light.png"
+      },
+      {
+        "pagePath":"pages/meishai/goods/goods",
+        "text": "美物",
+        "iconPath": "images/meiwu_gray1.png",
+        "selectedIconPath": "images/meiwu_red1.png"
+      },
+      {
+        "pagePath": "pages/meishai/photo/photo",
+        "iconPath": "images/camer.png"
+      },
+      {
+        "pagePath": "pages/meishai/welfare/welfare",
+        "text": "福利社",
+        "iconPath": "images/sun_gray.png",
+        "selectedIconPath": "images/sun_light.png"
+      },
+      {
+        "pagePath": "pages/meishai/my/my",
+        "text": "我的",
+        "iconPath": "images/user_gray.png",
+        "selectedIconPath": "images/user_light.png"
+      }
+    ]
+  }
+}

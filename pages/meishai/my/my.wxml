@@ -1,0 +1,52 @@
+<import src="/tpls/signin.wxml" />
+<template is="signin" data="{{modalHidden,...userInfo}}"></template>
+
+<view class="my-container">
+  <view class="my-header">
+    <view class="my-header-top">
+      <dl class="head-left">
+        <dt><image src="/images/180.png"/></dt>
+        <dd>
+          <text class="uname">777</text>
+          <text class="miaoshu">上传头像可获得20积分</text>
+        </dd>
+      </dl>
+      <i class="head-right"></i>
+    </view>
+    <ul class="my-header-bottom">
+      <li>
+        <i>V1</i>
+        <b>等级</b>
+      </li>
+      <li>
+        <i>200</i>
+        <b>积分</b>
+      </li>
+      <li>
+        <i>0</i>
+        <b>美豆</b>
+      </li>
+    </ul>
+  </view>
+
+  <view class="my-shoucang">
+    <view class="my-shoucang-top">
+      <i></i><span>我的收藏</span>
+    </view>
+    <ul class="my-shoucang-bottom">
+      <li>
+        <i></i>
+        <b>攻略</b>
+      </li>
+      <li>
+        <i></i>
+        <b>美物</b>
+      </li>
+      <li>
+        <i></i>
+        <b>晒晒</b>
+      </li>
+    </ul>
+  </view>
+
+</view>

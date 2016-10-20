@@ -1,0 +1,118 @@
+.goods-container{
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.goods-header{
+  width: 100%;
+  height: 44px;
+  background: rgb(255, 85, 119);
+  box-sizing: border-box;
+  padding: 5px 13px;
+}
+.goods-header-box{
+  width: 99%;
+  height: 34px;
+  border-radius: 3px;
+  background: rgb(231,30,70);
+}
+.goods-header-search{
+  float: left;
+  width: 30px;
+  height: 100%;
+  background: url(/images/home_search.png)no-repeat center;
+  background-size: 75%;
+}
+.goods-header-input{
+  float: left;
+  width: 87%;
+  height: 100%;
+  font-size: 12px;
+  color: rgb(245,161,178);
+  line-height: 34px;
+}
+
+.goods-nav{
+  width: 100%;
+  height:40px;
+  display: flex;
+}
+.goods-nav li{
+  flex: 1;
+  height: 100%;
+  text-align: center;
+  line-height: 40px;
+  font-size: 14px;
+  color: rgb(158,158,158);
+}
+.goods-nav li.active{
+  color: rgb(255, 96, 128);
+  border-bottom: solid 1px rgb(255, 96, 128);
+}
+
+.goods-list{
+  flex: 1;
+  width: 100%;
+  overflow: hidden;
+}
+.goods-scroll-box{
+  width: 100%;
+  height: 100%;
+}
+.goods-scroll{
+  width: 100%;
+  height: 100%;
+}
+.goods-scroll-top{
+  width: 100%;
+  height: 250px;
+}
+.goods-scroll-top li{
+  float: left;
+  width: 50%;
+  height: 126px;
+  padding: 3px;
+  box-sizing: border-box;
+}
+.goods-scroll-top li image{
+  width: 100%;
+  height: 100%;
+}
+
+.goods-scroll-bottom{
+  margin-top: 3px;
+  width: 100%;
+}
+.goods-scroll-bottom li{
+  width: 100%;
+  height: 250px;
+  box-sizing: border-box;
+  padding-bottom: 4px;
+}
+.goods-scroll-bottom li image{
+  width: 100%;
+  height: 200px;
+}
+
+/*美店*/
+.goods-scroll-meidian,.goods-scroll-daren,.goods-scroll-meida,.goods-scroll-meihu,.goods-scroll-xiebao,.goods-scroll-yinshi{
+  width: 100%;
+  height: 100%;
+}
+.goods-scroll-meidain-box,.goods-scroll-daren-box,.goods-scroll-meida-box,.goods-scroll-meihu-box,.goods-scroll-xiebao-box,.goods-scroll-yinshi-box,{
+  width:100%;
+}
+.goods-scroll-mei-box li{
+  width: 100%;
+  height: 157px;
+  margin-bottom: 4px;
+}
+.goods-scroll-mei-box li image{
+  width: 100%;
+  height: 250px;
+}
+button{
+  border: 0;
+}

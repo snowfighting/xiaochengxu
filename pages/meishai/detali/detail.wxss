@@ -1,0 +1,295 @@
+.detail-container {
+  width: 100%;
+  height: 100%;
+  background: whitesmoke;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column; }
+  .detail-container .detail-scroll {
+    flex: 1;
+    overflow: hidden;
+    width: 100%; }
+    .detail-container .detail-scroll .scroll-box {
+      width: 100%;
+      height: 100%; }
+      .detail-container .detail-scroll .scroll-box .detail-top {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 4px; }
+        .detail-container .detail-scroll .scroll-box .detail-top .detail-top-head {
+          width: 100%;
+          height: 50px;
+          box-sizing: border-box;
+          padding: 6px 0; }
+          .detail-container .detail-scroll .scroll-box .detail-top .detail-top-head dl {
+            float: left;
+            width: 145px;
+            height: 100%; }
+            .detail-container .detail-scroll .scroll-box .detail-top .detail-top-head dl dt {
+              float: left;
+              width: 37px;
+              height: 37px;
+              border-radius: 4px; }
+              .detail-container .detail-scroll .scroll-box .detail-top .detail-top-head dl dt image {
+                width: 100%;
+                height: 100%; }
+            .detail-container .detail-scroll .scroll-box .detail-top .detail-top-head dl dd {
+              float: left;
+              box-sizing: border-box;
+              padding-left: 6px;
+              width: 108px;
+              height: 100%; }
+              .detail-container .detail-scroll .scroll-box .detail-top .detail-top-head dl dd .ddtop {
+                width: 100%;
+                height: 25px; }
+                .detail-container .detail-scroll .scroll-box .detail-top .detail-top-head dl dd .ddtop .uname {
+                  float: left;
+                  width: 65px;
+                  font-size: 12px;
+                  color: #464646; }
+                .detail-container .detail-scroll .scroll-box .detail-top .detail-top-head dl dd .ddtop i {
+                  float: left;
+                  width: 25px;
+                  height: 10px;
+                  background: url("/images/v1.png") no-repeat center;
+                  background-size: 100%; }
+              .detail-container .detail-scroll .scroll-box .detail-top .detail-top-head dl dd .ddbottom {
+                width: 100%;
+                height: 10px;
+                font-size: 8px;
+                color: #dfdfdf; }
+          .detail-container .detail-scroll .scroll-box .detail-top .detail-top-head .concern {
+            float: right;
+            width: 47px;
+            height: 22px;
+            background: url("/images/plus_concern.png") no-repeat center;
+            background-size: 100%; }
+      .detail-container .detail-scroll .scroll-box .detail-productImg {
+        width: 100%; }
+        .detail-container .detail-scroll .scroll-box .detail-productImg dt {
+          width: 100%;
+          height: 866px;
+          display: flex;
+          flex-direction: column; }
+          .detail-container .detail-scroll .scroll-box .detail-productImg dt image {
+            flex: 1;
+            box-sizing: border-box;
+            padding-bottom: 6px;
+            width: 100%; }
+        .detail-container .detail-scroll .scroll-box .detail-productImg dd {
+          width: 100%;
+          height: 110px;
+          color: #878787;
+          font-size: 12px;
+          line-height: 19px; }
+      .detail-container .detail-scroll .scroll-box .author-desc {
+        width: 100%;
+        height: 30px;
+        border-bottom: solid 1px #f2f2f2; }
+        .detail-container .detail-scroll .scroll-box .author-desc i {
+          float: left;
+          width: 12px;
+          height: 16px;
+          background: url(/images/home_post_cate.png) no-repeat center;
+          background-size: 100%; }
+        .detail-container .detail-scroll .scroll-box .author-desc b {
+          float: left;
+          width: 40px;
+          box-sizing: border-box;
+          padding-left: 7px;
+          font-size: 10px;
+          color: #ff5677; }
+      .detail-container .detail-scroll .scroll-box .detail-address {
+        width: 100%;
+        height: 35px;
+        border-bottom: whitesmoke; }
+        .detail-container .detail-scroll .scroll-box .detail-address i {
+          float: left;
+          width: 20px;
+          height: 100%;
+          background: url(/images/release_localtion.png) no-repeat center;
+          background-size: 50%; }
+        .detail-container .detail-scroll .scroll-box .detail-address b {
+          float: left;
+          width: 145px;
+          height: 100%;
+          line-height: 35px;
+          color: #b6b6b6; }
+      .detail-container .detail-scroll .scroll-box .sproduct-footer {
+        display: flex;
+        height: 40px;
+        width: 100%;
+        border-top: 1px solid #f6f6f6; }
+        .detail-container .detail-scroll .scroll-box .sproduct-footer li {
+          flex: 1;
+          height: 40px;
+          line-height: 40px;
+          box-sizing: border-box;
+          padding-left: 50px;
+          font-size: 10px;
+          color: #dbdbdb; }
+          .detail-container .detail-scroll .scroll-box .sproduct-footer li b {
+            float: left; }
+          .detail-container .detail-scroll .scroll-box .sproduct-footer li i {
+            float: left;
+            width: 30px;
+            height: 100%;
+            background: url(/images/un_like_1_25.png) no-repeat left center;
+            background-size: 70%; }
+            .detail-container .detail-scroll .scroll-box .sproduct-footer li i.un_collect {
+              background: url(/images/un_collect_1_25.png) no-repeat left center;
+              background-size: 70%; }
+            .detail-container .detail-scroll .scroll-box .sproduct-footer li i.un_linked {
+              background: url(/images/un_linked.png) no-repeat left center;
+              background-size: 70%; }
+      .detail-container .detail-scroll .scroll-box .zuser {
+        width: 100%;
+        height: 42px;
+        box-sizing: border-box;
+        padding: 10px 0; }
+      .detail-container .detail-scroll .scroll-box .commits {
+        height: 485px;
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 8px;
+        display: flex;
+        flex-direction: column; }
+        .detail-container .detail-scroll .scroll-box .commits .commits-top {
+          width: 100%;
+          height: 40px;
+          box-sizing: border-box;
+          padding-left: 8px;
+          border-bottom: solid 1px whitesmoke;
+          line-height: 40px;
+          font-weight: bold;
+          font-size: 14px;
+          color: #4d4d4d; }
+        .detail-container .detail-scroll .scroll-box .commits .commits-list {
+          width: 100%;
+          flex: 1;
+          display: flex;
+          flex-direction: column; }
+          .detail-container .detail-scroll .scroll-box .commits .commits-list .commitInfo {
+            flex: 1;
+            width: 100%;
+            border-bottom: solid 1px whitesmoke;
+            box-sizing: border-box;
+            padding-top: 6px; }
+            .detail-container .detail-scroll .scroll-box .commits .commits-list .commitInfo dl {
+              width: 100%;
+              height: 40px; }
+              .detail-container .detail-scroll .scroll-box .commits .commits-list .commitInfo dl dt {
+                float: left;
+                width: 30px;
+                height: 30px;
+                border-radius: 6px; }
+              .detail-container .detail-scroll .scroll-box .commits .commits-list .commitInfo dl dd {
+                float: left;
+                width: 50px;
+                height: 30px;
+                box-sizing: border-box;
+                padding-left: 8px; }
+                .detail-container .detail-scroll .scroll-box .commits .commits-list .commitInfo dl dd b {
+                  display: block;
+                  width: 100%;
+                  height: 20px;
+                  font-weight: bold;
+                  font-size: 14px;
+                  color: #424242; }
+                .detail-container .detail-scroll .scroll-box .commits .commits-list .commitInfo dl dd i {
+                  display: block;
+                  width: 100%;
+                  height: 10px;
+                  color: #e5e5e5;
+                  font-size: 6px; }
+            .detail-container .detail-scroll .scroll-box .commits .commits-list .commitInfo .content {
+              display: block;
+              width: 100%;
+              height: 36px;
+              box-sizing: border-box;
+              padding-left: 36px;
+              line-height: 36px;
+              font-size: 10px;
+              color: #6c6c6c; }
+        .detail-container .detail-scroll .scroll-box .commits .commits-more {
+          width: 100%;
+          height: 32px;
+          background: rbg(238, 238, 238);
+          line-height: 32px;
+          text-align: center;
+          font-size: 14px;
+          color: #949494; }
+      .detail-container .detail-scroll .scroll-box .detail-relative {
+        width: 100%; }
+        .detail-container .detail-scroll .scroll-box .detail-relative .relative-top {
+          width: 100%;
+          height: 28px;
+          background: whitesmoke;
+          font-size: 8px;
+          color: rbg(147, 147, 147);
+          line-height: 28px;
+          text-align: center; }
+        .detail-container .detail-scroll .scroll-box .detail-relative .piclist {
+          width: 100%; }
+          .detail-container .detail-scroll .scroll-box .detail-relative .piclist dl {
+            box-sizing: border-box;
+            padding: 3px;
+            float: left;
+            width: 215px;
+            height: 303px;
+            background: #fff; }
+            .detail-container .detail-scroll .scroll-box .detail-relative .piclist dl dt {
+              width: 210px;
+              height: 210px; }
+              .detail-container .detail-scroll .scroll-box .detail-relative .piclist dl dt image {
+                width: 100%;
+                height: 100%; }
+            .detail-container .detail-scroll .scroll-box .detail-relative .piclist dl dd {
+              width: 100%;
+              height: 93px; }
+              .detail-container .detail-scroll .scroll-box .detail-relative .piclist dl dd .prodes {
+                width: 100%;
+                height: 54px;
+                box-sizing: border-box;
+                padding: 11px 0;
+                line-height: 16px;
+                font-size: 12px;
+                color: dimgray; }
+              .detail-container .detail-scroll .scroll-box .detail-relative .piclist dl dd .authordes {
+                width: 100%;
+                height: 39px; }
+                .detail-container .detail-scroll .scroll-box .detail-relative .piclist dl dd .authordes .autoleft {
+                  float: left;
+                  width: 140px;
+                  height: 100%; }
+                  .detail-container .detail-scroll .scroll-box .detail-relative .piclist dl dd .authordes .autoleft .autoava {
+                    float: left;
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 50%; }
+                    .detail-container .detail-scroll .scroll-box .detail-relative .piclist dl dd .authordes .autoleft .autoava image {
+                      width: 100%;
+                      height: 100%; }
+                  .detail-container .detail-scroll .scroll-box .detail-relative .piclist dl dd .authordes .autoleft text {
+                    float: left;
+                    width: 124px;
+                    display: block;
+                    box-sizing: border-box;
+                    padding-left: 6px;
+                    font-size: 10px;
+                    line-height: 40px;
+                    color: #949494; }
+                .detail-container .detail-scroll .scroll-box .detail-relative .piclist dl dd .authordes .autoright {
+                  float: left;
+                  width: 28px;
+                  height: 100%; }
+                  .detail-container .detail-scroll .scroll-box .detail-relative .piclist dl dd .authordes .autoright i {
+                    float: left;
+                    width: 21px;
+                    background: url("/images/un_like_1_25.png") no-repeat left center;
+                    background-size: 50%; }
+                  .detail-container .detail-scroll .scroll-box .detail-relative .piclist dl dd .authordes .autoright b {
+                    float: left;
+                    font-size: 10px;
+                    line-height: 40px;
+                    color: #949494; }

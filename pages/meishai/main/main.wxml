@@ -1,0 +1,155 @@
+<view class = "main-container">
+  <nav class="main-nav">
+    <ul>
+      <li></li>
+      <li class="nav-center">
+        <a catchtap = "switchSlider" data-index="0" class="{{current == 0?'active':''}}">精选</a>
+        <a catchtap = "switchSlider" data-index="1" class="{{current == 1?'active':''}} nav-find">发现</a></li>
+      <li></li>
+    </ul>
+  </nav>
+
+  <view class="list-loading">
+    <loading hidden="{{loadingHidden}}">努力加载中...</loading>
+  </view>
+
+  <swiper class="main-list" current="{{swiper.current}}" duration="{{swiper.duration}}" bindchange="chanMainSlider">
+    <block>
+      <swiper-item>
+        <scroll-view class="main-scroll-select" scroll-y="true" bindscrolltoupper="actionToupper" bindscrolltolower="actionTolower" upper-threshold="0" lower-threshold="0" scroll-top="{{refreshHidden ? 1 : 0}}">
+
+
+
+          <view class="home-search-view">
+            <view class="home-search-box">
+              <i class="home-search"></i>
+              <input type="text" placeholder="搜索晒晒/攻略/美物"/>
+            </view>
+          </view>
+
+          <swiper class="main-swiper-banner" autoplay="true" duration="300" interval="3000">
+            <block>
+              <swiper-item wx:for="{{slide}}" wx:for-item="item" class="main-swiper-banbox"><image src="{{item.image}}"  alt="" /> </swiper-item>
+              <!-- <swiper-item class="main-swiper-banbox"><img src=""  alt="" /> </swiper-item> -->
+            </block>
+          </swiper>
+
+          <view class="main-avator">
+            <dl wx:for="{{application}}" wx:for-item="item">
+              <dt><image src="{{item.image}}" /></dt>
+              <dd>{{item.text}}</dd>
+            </dl>
+          </view>
+
+            <scroll-view class="hscroll-box" scroll-x="true">
+              <view class="hscroll">
+                <view class="hscroll-img" wx:for="{{topic}}" wx:for-item="item"><image src="{{item.image}}" alt="" /></view>
+              </view>
+            </scroll-view>
+
+        <view class="main-scroll-products">
+          <navigator url="../detail/detail?id={{item.pid}}" wx:for="{{list}}" wx:for-item="item">
+            <view class="sproduct-head">
+              <dl class="plus-left">
+                <dt><image src="{{item.userdata.avatar}}" /></dt>
+                <dd><span>{{item.userdata.username}}<b></b></span>
+                  <i>{{item.postdata.addtime}}</i>
+                 </dd>
+              </dl>
+              <span class="plus-concern"></span>
+            </view>
+            <dl class="sproduct-context">
+              <dt><image src="{{item.postdata.pic_url}}" /></dt>
+              <dd>
+                <p>
+                  {{item.postdata.description}}
+                  <!-- CPB洗面奶是一款温和柔润的洁面膏，和SK-II的差不多，都很好用。它含氨基酸洁面泡沫，
+                  温和地溶解污垢、油脂和杂质，洁面后水分分不会丢失，冲洗后不会有任何残留。它的香味很好闻
+                  优雅高贵。加水后，可以产生分润丝滑的泡沫，能够轻松... -->
+                </p>
+                <span><i></i><b>晒护肤</b></span>
+              </dd>
+            </dl>
+            <ul class="sproduct-footer">
+              <li><i class="un_like"></i><b>20</b></li>
+              <li><i class="un_collect"></i><b>1</b></li>
+              <li><i class="un_linked"></i><b>暂无链接</b></li>
+            </ul>
+          </navigator>
+        </view>
+        </scroll-view>
+      </swiper-item>
+
+      <!-- 发现 -->
+      <swiper-item>
+        <scroll-view class="main-scroll-find" scroll-y="true">
+          <view class = "find-huati">
+            <view class = "huati-top">
+              <span>热门话题1</span>
+              <p><b>更多1</b><i></i></p>
+            </view>
+          </view>
+
+          <view class="find-zhuanti">
+            <view class="zhuanti-top">
+              <span>专题活动</span>
+              <p><b>查看更多</b><i></i></p>
+            </view>
+
+              <scroll-view class="find-zhuanti-scroll" scroll-x="true" style="width: 100%">
+                <view class="find-zhuanti-box">
+                  <image src="/images/v7.png" class="color"></image>
+                  <image src="/images/v7.png" class="color"></image>
+                  <image src="/images/v7.png" class="color"></image>
+                  <image src="/images/v7.png" class="color"></image>
+                  <image src="/images/v7.png" class="color"></image>
+                  <image src="/images/v7.png" class="color"></image>
+                </view>
+              </scroll-view>
+          </view>
+
+          <view class="find-pinzhi">
+              <view class="pinzhi-top">
+                品质活动
+              </view>
+              <view class="pinzhi-img">
+                <image src="/images/v7.png" class="pimgL"></image>
+                <image src="/images/v7.png" class="pimgR"></image>
+                <image src="/images/v7.png" class="pimgL"></image>
+                <image src="/images/v7.png" class="pimgR"></image>
+                <image src="/images/v7.png" class="pimgL"></image>
+                <image src="/images/v7.png" class="pimgR"></image>
+              </view>
+          </view>
+
+          <view class = "find-chakan">
+            <view class = "chakan-top">查看更多</view>
+            <view class = "chakan-img">
+              <view class = "chakan-img-box">
+                <view class="chakan-img-info">
+                  <dl>
+                    <dt><image src="" /></dt>
+                    <dd></dd>
+                  </dl>
+                  <view class="chakan-img-author">
+                      <dl class="autoinfo">
+                        <dt><image src="" /></dt>
+                        <dd>萱萱木木</dd>
+                      </dl>
+                      <dl class="autozan">
+                        <dt></dt>
+                        <dd>赞</dd>
+                      </dl>
+                  </view>
+                </view>
+
+              </view>
+            </view>
+          </view>
+
+        </scroll-view>
+      </swiper-item>
+
+    </block>
+  </swiper>
+</view>
